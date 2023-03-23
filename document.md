@@ -19,3 +19,16 @@ Step4: add remote
 Step5: push code
 
     git push origin develop
+
+Các câu lệnh git cơ bản:
+
+    git branch -d tên-nhánh -> xóa 1 nhánh
+    git checkout -b tên-nhánh -> thêm 1 nhánh
+    git branch -> xem danh xách nhánh
+    git checkout tên-nhánh -> chuyển nhánh
+    git remote add tên-remote link-repo -> thêm mới 1 remote 
+    git add filename -> add 1 file
+    git add .  -> add tất cả
+    git commit -m "Massage"  -> commit code trong đó "Message" là nội dung muốn commit
+    git push origin tên-nhánh -> đẩy code lên nhánh trong đó origin là tên  remote mà chúng ta đặt
+    
